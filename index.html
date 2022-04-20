@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <title>Analiza przebiegu funkcji</title>
+    <style>
+        table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+    }
+    table {
+        background-color: #f138c9;
+    }
+    </style>
+</head>
+<body style="color: #360b57;font-family: 'Comic Sans MS', 'Comic Sans', cursive; text-align: center; background-image: url('./bg_final.png');">
+    <marquee><img src="cool_text.gif" scrollamount="100px"></marquee>
+    <p>\[f(x)=\frac{x^{2}-3x+2}{x^{2}}\]</p>
+    <h3>1. Dziedzina:</h3>
+    <p>\[x\epsilon\mathbb{R}\backslash\{0\}\]</p>
+    <h3>2. Miejsca zerowe:</h3>
+    <p>\[ x=1 \] lub \[x=2\]</p>
+    <h3>3. Przecięcie z OY:</h3>
+    <p>brak przecięcia z OY --> dziedzina</p>
+    <h3>4. Parzystość/nieparzystość:</h3>
+    <p>1. parzysta dziedzina</p>
+    <p>2. \[f(-x)\neq f(x)\] oraz \[f(-x)\neq -f(x)\]</p>
+    <h3>5. Granice:</h3>
+    <p>\[\lim_{x \to 0^{+}} f(x)=\infty \]</p>
+    <p>\[\lim_{x \to 0^{-}} f(x)=\infty \]</p>
+    <p>\[\lim_{x \to \pm \infty} f(x)=1 \]</p>
+    <h3>6. Asymptoty:</h3>
+    <p>a) pozioma: y=1</p>
+    <p>b) pionowa: x=0</p>
+    <p>c) ukośna: brak</p>
+    <h3>7. Monotoniczność:</h3>
+    <p>\[f'(x)=\frac{3x-4}{x^3}\]</p>
+    <p>f rośnie: \[(-\infty; 0), (\frac{4}{3}; \infty)\]</p>
+    <p>f maleje: \[(0; \frac{4}{3})\]</p>
+    <h3>8. Ekstremum:</h3>
+    <p>Minimum: \[(\frac{4}{3}, -\frac{1}{8})\]</p>
+    <h3>9. Tabelka</h3>
+    <div>
+    <table style="margin-left: auto;
+    margin-right: auto; border: 1px solid black;">
+        <tr>
+            <td>
+                \[x\]
+            </td>
+            <td>\[(-\infty, 0)\]</td>
+            <td>\[0\]</td>
+            <td>\[(0, \frac{4}{3})\]</td>
+            <td>\[\frac{4}{3}\]</td>
+            <td>\[(\frac{4}{3}, +\infty)\]</td>
+        </tr>
+        <tr>
+            <td>
+                \[f'(x)\]
+            </td>
+            <td>\[+\]</td>
+            <td>X</td>
+            <td>\[-\]</td>
+            <td>\[0\]</td>
+            <td>\[+\]</td>
+        </tr>
+        <tr>
+            <td>
+                \[f(x)\]
+            </td>
+            <td>rośnie</td>
+            <td>X</td>
+            <td>maleje</td>
+            <td>min: \[(-\frac{1}{8}; \frac{4}{3})\]</td>
+            <td>rośnie</td>
+        </tr>
+      </table>
+    </div>
+    <h3>10a. Wykres:</h3>
+    <img src="graph.png" alt="wykres">
+    <h3>10b. Wykres ręcznie:</h3>
+    <img src="graph_hd.jpeg" alt="wykres">
+</body>
+</html>
